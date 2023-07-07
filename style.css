@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EDF5FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.section1{
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-left: 80px;
+}
+
+.hea{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 40px;
+}
+.hom a{
+    text-decoration: none;
+    align-items: center;
+}
+
+.hom{
+    display: flex;
+    gap: 37px;
+    align-items: center;
+    margin-left: 530px;
+}
+.im{
+    display: flex;  
+}
+
+.im img{
+    width: 80px;
+    height: 39px;
+}
+
+.but button{
+    width: 129px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border-radius: 28px;
+    border: 2px solid black;
+    margin-left: 15px;  
+    cursor: pointer;
+}
+
+.but a{
+    background-color: black;
+    color: white;
+}
+
+.section2{
+    margin-top: 50px;
+    display: flex;
+}
+
+.lanch h1{
+   font-size: 60px;  
+   font-family: 'Amaranth', sans-serif;
+   color: #18004C;
+   margin-top: 50px;
+   text-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lanch span{
+    color: #4F6AFF;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.lanch p{
+    margin-top: 50px;
+ }
+
+ .but2{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    align-items: center;
+ }
+
+ .but2 button{
+    width: 204px;
+    height: 43px;
+    background-color: #18004C;
+    color: white;
+    border-radius: 28px;
+    border: 1px solid #18004C;
+    cursor: pointer;
+ }
+
+ .but2 a{
+    text-decoration: none;
+ }
